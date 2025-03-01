@@ -13,7 +13,8 @@ An integrated HRMS automates administrative tasks such as patient registration, 
 # 2. Enhanced Patient Care
 With the real-time view of the patient records, the doctors and nurses can make informed decisions regarding diagnoses, treatments, and prescriptions. This is very vital in cases of emergencies, as any decision taken can be critical in the patient’s life.
 # 3. Data Security & Compliance
-The HRMS ensures that patient data is securely stored and accessed only by authorized personnel. The access will be restricted to functions of the stakeholder/user (role-based access); for example, administrators should only have access to book appointments and not have access to the patient medical records. The system also enforces compliance with healthcare regulations such as GDPR and HIPAA, ensuring that patient records are managed appropriately, stored, and protected.
+The HRMS ensures that patient data is securely stored and accessed only by authorized personnel while adhering to healthcare regulations like HIPAA and GDPR. The access will be restricted to functions of the stakeholder/user (role-based access); for example, administrators should only have access to book appointments and not have access to the patient medical records. 
+
 # 4. Seamless Integration
 An integrated HRMS facilitates seamless communication and data exchange between the hospital departments, reducing administrative burdens and improving coordination. For example, lab results/radiology scans can be automatically updated in patient records, and insurance claims can be processed more efficiently.
 # 5. Better Decision-Making
