@@ -32,7 +32,7 @@ flowchart TD
     n2 -- Handles login, roles --> AuthService
     AuthService -- Check access --> UserModule
 
-    n2 -- Process transaction  --> Database;
+    n2 -- Process records transactions  --> Database;
     Database -- Manages records --> PatientRecords
     Database -- Schedule Appointments --> Appointments
     Database -- Handles billing --> Billing
