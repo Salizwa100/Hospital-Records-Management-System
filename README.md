@@ -4,7 +4,8 @@ The purpose of the Hospital Records Management System (HRMS) is to digitize and 
 
 # Links to:
 
-[SPECIFICATION.md] **'(https://github.com/Salizwa100/Hospital-Records-Management-System/main/SPECIFICATION.md)'**  
-[ARCHITECTURE.md] **'(https://github.com/Salizwa100/Hospital-Records-Management-System/main/ARCHITECTURE.md)'**
+**System Specification Document**   '([SPECIFICATION.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/SPECIFICATION.md))'   
+
+**C4 Architectural Diagrams**  '([ARCHITECTURE.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/ARCHITECTURE.md))'
 
 
