@@ -14,7 +14,7 @@
 
 # **2.  Functional requirements**
 
-### 2.1.  Patient Management
+### 2.1.  Patient Management:
 
 1.	The system shall allow registration of new patients with personal details and medical history. 
 2.	The system shall allow maintenance of patient records with personal details, diagnosis, prescriptions, and treatments. 
@@ -24,33 +24,69 @@
 6.	The system shall integrate with lab systems to automatically update test results in patient records. 
 7.	The system shall allow doctors to retrieve patient history within 20 seconds.
 
-### 2.2.  Appointment Scheduling
+### 2.2.  Appointment Scheduling:
 
 8.	The system shall enable patients and hospital administrators to book, reschedule, and cancel appointments in real time. 
 9.	The system shall ensure that the appointments are only valid once they have been confirmed by hospital administrators. 
 10.	The system shall have the automated reminders functionality for patients and doctors.
 
-### 2.3.  Billing and Payments
+### 2.3.  Billing and Payments:
 
 11.	The system shall allow billing staff to generate and process invoices digitally for treatments, tests, and prescriptions. 
 12.	The system shall show detailed insurance claim processing and payment tracking.
 
-### 2.4.  Reporting and Analytics
+### 2.4.  Reporting and Analytics:
 
-14.	The system shall auto generate statistical reports on hospital operations such as:
-a.	Outpatients per Department (OPD)
-b.	1ST time Visits
-c.	Follow-ups visits
-d.	Referrals: Outside vs Internal (general to specialist).
-e.	Appointments per OPD
-15.	The system shall include a reporting module for the finance department such as:
-a.	Billing report.
-b.	Invoices report.
-c.	Patient account report.
+13.	The system shall auto generate statistical reports on hospital operations such as:
+  - Outpatients per Department (OPD)
+  - 1ST time Visits
+  - Follow-ups visits
+  - Referrals: Outside vs Internal (general to specialist).
+  - Appointments per OPD  
+15.	The system shall include a reporting module for the finance department such as: 
+  - Billing report. 
+  - Invoices report.
+  - Patient account report.
 
-2.5.	Other system functions:
-15.	The system shall maintain a detailed log - a complete audit trail of all data modifications for compliance tracking.
-16.	The system shall enable IT staff to monitor system uptime, logs, and security events.
+### 2.5. Other system functions: 
+
+16.	The system shall maintain a detailed log - a complete audit trail of all data modifications for compliance tracking. 
+17.	The system shall enable IT staff to monitor system uptime, logs, and security events.
+
+
+# **3.  Non-Functional requirements**
+
+### Usability
+
+1.	The system shall have a user-friendly interface with minimal navigation structure complexity to allow users to perform tasks quickly and easy.   
+2.	The system shall retrieve records quickly. 
+3.	The system shall allow role-based access control to facilitate easier updates and maintenance.
+   
+## Deployable
+
+4.	The system shall be easily deployable across multiple hospital departments and locations with minimal downtime.
+5.	The system shall allow seamless integration with 3rd party systems (e.g. patient portal and lab systems).
+   
+## Maintainability
+
+6. 	The system shall provide clear error log and monitoring tools to assist IT staff in troubleshooting and system diagnostics.
+7. 	The system shall allow seamless updates or patches with minimal disruption to the hospital operations.
+   
+## Scalability
+
+8. The system shall handle increasing volumes of records, users and new hospital sites without performance degradation. 
+
+## Security
+9.	All patient data shall be encrypted to ensure data security and confidentiality of information. 
+10.	The system shall implement role-based access control to restrict unauthorized access. 
+11.	The system shall comply with healthcare regulations, including HIPAA and GDPR. 
+12.	The system shall support audit logging for tracking access and modifications to sensitive data. 
+13.	The system shall undergo security vulnerability testing regularly.
+    
+## Performance
+14.	The system response time for any operation shall not exceed 15 seconds to ensure efficiency and effectiveness.
+15.	The system shall support high transaction loads without significant performance degradation.
+
 
 
 
