@@ -51,7 +51,7 @@
 ### 2.5. Other system functions: 
 
 16.	The system shall maintain a detailed log - a complete audit trail of all data modifications for compliance tracking. 
-17.	The system shall enable IT staff to monitor system uptime, logs, and security events.
+17.	The system shall enable IT staff to monitor system uptime, logs, and security events.   
 
 
 # **3.  Non-Functional requirements**
