@@ -15,7 +15,12 @@ The purpose of the Hospital Records Management System (HRMS) is to digitize and 
 **Use case Diagrams**  '([Use_Case_Diagram.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Use_Case_Diagram.md))'       
 
 
-**Test Cases**  '([Test_Cases.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Test_Cases.md))'
+**Use Case Specifications:**  '([Use_Case_Specifications.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Use_Case_Specifications.md))'   
+
+
+
+
+**Test Cases**  '([Test_Cases.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Test_Cases.md))' 
 
 
 
