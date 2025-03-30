@@ -33,7 +33,36 @@ The purpose of the Hospital Records Management System (HRMS) is to digitize and 
 
 # **Assignment 7**
 
+# **Screenshot**   
 
+### Template comparison
+![image](https://github.com/user-attachments/assets/1904437a-69ce-4d10-bd1d-05ffc23c4a96)     
+
+### Custom Kanban board:  
+
+![image](https://github.com/user-attachments/assets/282c8354-cb9b-4dc1-910d-df51dd839a67)     
+
+![image](https://github.com/user-attachments/assets/097e9834-2dbc-4b07-84a7-0b0da570c375)     
+
+## My Kanban Board Customizing choices:
+
+### Added "On hold" Column
+To better track tasks that are temporarily paused due to dependencies or other issues, we have introduced an **"On hold"** column. Reason/ Benefits:   
+- Visualize blocked items that still require attention.
+- Identify dependencies that need resolution.
+- Facilitate discussions on tackling blockers during daily standup meetings.
+
+### Added "Testing" Column
+To ensure the system meets functional, performance, design, and implementation requirements as outlined in the blueprint and stakeholder requirements list, we have added a **"Testing"** column. Reason/ Benefits:
+- Allow verification of system compliance with requirements.
+- Help categorize defects or issues for better tracking.
+- Enable breaking down logged defects into smaller tasks.
+- Assist in assigning issues to the relevant team members for resolution.
+
+
+
+
+### Links:
 
 **Template Analysis and Selection**  '([template_analysis.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/template_analysis.md))'        
 
