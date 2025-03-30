@@ -1,4 +1,4 @@
-#  Reflection
+#  Reflection - Assignment 6 
 
 ### Challenges in Agile Planning
 - **Aligning Stakeholder Needs:** Balancing security requirements (user authorizations, compliance) with user experience such as fast access to records was a challenge.
@@ -11,3 +11,7 @@
 - Breaking down tasks into smaller portions allows for better sprint flexibility, shared workload, and risk management.
 - Testing must be integrated within sprints to ensure processes developed are meeting the stakeholder requirements.
 - Automate repetitive processes, such as appointment reminders and lab result updates, to improve efficiency.
+
+#  Reflection - Assignment 7
+
+
