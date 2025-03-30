@@ -27,7 +27,19 @@ The purpose of the Hospital Records Management System (HRMS) is to digitize and 
 
 **Sprint Planning**  '([Sprint_Backlog.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Sprint_Backlog.md))'    
 
-**Reflection**  '([Reflection_Assigment6.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection_Assigment6.md))'  
+**Reflection**  '([Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'       
+
+
+
+# **Assignment 7**
+
+
+
+**Template Analysis and Selection**  '([template_analysis.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/template_analysis.md))'        
+
+**Kanban Board Explanation**  '([kanban_explanation.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/kanban_explanation.md))'
+
+**Reflection**  '([Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'    
 
 
 
