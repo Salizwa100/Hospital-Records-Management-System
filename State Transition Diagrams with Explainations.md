@@ -127,7 +127,7 @@ stateDiagram-v2
 - **Discharged**/**Cancelled**: End of admission.
 
 ### Functional Requirement Mapping
-- `Admitted` aligns with ****FR002 and FR-003: Register admission visit based on doctor's diagnoses outcome**.
+- `Admitted` aligns with **FR002 and FR-003: Register admission visit based on doctor's diagnoses outcome**.
 - `InTreatment`, `Discharged` and `Cancelled` fulfill **FR003: Doctor's diagonoses and treatments and FR010: Track patient status**.
 
 ---
