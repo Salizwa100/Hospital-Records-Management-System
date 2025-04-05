@@ -81,7 +81,7 @@ To ensure the system meets functional, performance, design, and implementation r
 **Task 2: Activity Workflow Modeling with Activity Diagrams** '([Activity Workflow with Explainations.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Activity%20Workflow%20with%20Explainations.md))'  
 
 
-**Reflection**  '([Assignment 6_Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'
+**Reflection**  '([assignment 6_reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/assignment%206_reflection.md))'
 
 
 
