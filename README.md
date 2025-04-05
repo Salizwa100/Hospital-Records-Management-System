@@ -70,12 +70,13 @@ To ensure the system meets functional, performance, design, and implementation r
 
 **Reflection**  '([Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'  
 
-**Project link** '([Custom Kanban Board Creation](https://github.com/users/Salizwa100/projects/9))'   
+**Project link** '([Custom Kanban Board Creation](https://github.com/users/Salizwa100/projects/9))'        
 
 
 
+# **Assignment 8**
 
-
+**Task 1: Object State Modeling with State Transition Diagrams**  '([State Transition Diagrams with Explainations.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/State%20Transition%20Diagrams%20with%20Explainations.md))' 
 
 
 
