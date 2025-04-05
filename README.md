@@ -76,7 +76,13 @@ To ensure the system meets functional, performance, design, and implementation r
 
 # **Assignment 8**
 
-**Task 1: Object State Modeling with State Transition Diagrams**  '([State Transition Diagrams with Explainations.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/State%20Transition%20Diagrams%20with%20Explainations.md))' 
+**Task 1: Object State Modeling with State Transition Diagrams**  '([State Transition Diagrams with Explainations.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/State%20Transition%20Diagrams%20with%20Explainations.md))'     
+
+**Task 2: Activity Workflow Modeling with Activity Diagrams** '([Activity Workflow with Explainations.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Activity%20Workflow%20with%20Explainations.md))'  
+
+
+**Reflection**  '([Assignment 6_Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'
+
 
 
 
