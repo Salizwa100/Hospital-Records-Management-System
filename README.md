@@ -68,7 +68,9 @@ To ensure the system meets functional, performance, design, and implementation r
 
 **Kanban Board Explanation**  '([kanban_explanation.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/kanban_explanation.md))'
 
-**Reflection**  '([Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'    
+**Reflection**  '([Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'  
+
+**Project link** '([Custom Kanban Board Creation](https://github.com/users/Salizwa100/projects/9))'   
 
 
 
