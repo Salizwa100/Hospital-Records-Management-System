@@ -1,4 +1,4 @@
-# 🏥 Domain Model Description
+# 🏥 HRMS Domain Model Description
 
 ## Entity Descriptions
 
