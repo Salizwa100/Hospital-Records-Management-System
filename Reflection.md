@@ -48,12 +48,13 @@ Therefore, when it comes to aligning diagrams with evolving user stories can be 
 
 ![image](https://github.com/user-attachments/assets/fdfbeecb-b1c2-4162-a6ed-fce739412923)
 
+---
 
 # Reflection - Assignment 9
 
 ## 1. Challenges Faced in Designing the Domain Model and Class Diagram
 
-One of the most significant challenges was maintaining the right level of abstraction. In some cases, it was difficult to decide what level of detail should be included in a class. For instance, distinguishing between attributes and relationships for entities like **Bill**, **Prescription**, and **PatientVisit** required several iterations. Initially, it was tempting to overpopulate the **Patient** class with various responsibilities, but the design had to be revised to adhere to the *single responsibility principle*.
+One of the most significant challenges was maintaining the right level of abstraction. In some cases, it was difficult to decide what level of detail should be included in a class. For instance, distinguishing between attributes and relationships for entities like **Bill**, **Prescription**, and **PatientVisit** required several iterations. Initially, it was tempting to overpopulate the **Patient** class with various responsibilities, but the design had to be revised to adhere to the single responsibility principle.
 
 Modeling relationships also posed challenges, particularly around multiplicities and directionality. For example, accurately capturing that a **Patient** can have multiple **Appointments**, and each **Appointment** must be linked to a **Doctor**, needed careful thought to avoid cyclic dependencies or confusion over ownership. It was also difficult to model bidirectional dependencies without making the diagram overly complex or cluttered.
 
