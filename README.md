@@ -83,7 +83,15 @@ To ensure the system meets functional, performance, design, and implementation r
 
 **Reflection**  '([assignment 8_reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/assignment%208_reflection.md))'
 
+---
 
+# **Assignment 9**
+
+**Task 1: Domain Model** '([Domain Model Documentation.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Domain%20Model%20Documentation.md))'
+
+**Task 2: Class Diagram in Mermaid.js** '([Class Diagram.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/ClassDiagram.md))'
+
+**Reflection**  '([Assignment 9 Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Assignment%209%20Reflection.md))'
 
 
 
