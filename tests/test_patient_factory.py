@@ -1,5 +1,5 @@
 import unittest
-from factory.patient_factory import PatientCreator
+from factory_method.patient_factory import PatientCreator
 
 class TestPatientFactory(unittest.TestCase):
     def test_create_patient(self):
