@@ -26,7 +26,7 @@ jobs:
 
     - name: Run tests with coverage
       env:
-        PYTHONPATH: ${{ github.workspace }}
+        PYTHONPATH: ${{ github.workspace }}/creational_patterns
       run: |
         pytest tests --cov=. --cov-report=xml --cov-report=term
 
