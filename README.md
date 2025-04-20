@@ -99,7 +99,7 @@ To ensure the system meets functional, performance, design, and implementation r
 ---
 # **Assignment 10**
 
-# **Task 1: Class implementations Source Code** '([Class implementations src folder](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/src))'
+## **Task 1: Class implementations Source Code** '([Class implementations src folder](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/src))'
 
 # Design choice:
 
@@ -127,7 +127,7 @@ Defines core users and their specific responsibilities:
 doctor.prescribe_treatment("patient123", "Paracetamol 500mg")
 ```
 This lets a doctor issue a prescription for a patient.
-
+##
 
 ### 2. `entities.py` – Core Data Models
 Encapsulates entities such as:
@@ -141,7 +141,7 @@ Encapsulates entities such as:
 bill.pay_bill()
 ```
 Changes bill status and confirms payment.
-
+##
 
 ### 3. `lab_system.py` – Lab Integration
 Represents interactions between doctors, patients, and lab results.
@@ -154,7 +154,7 @@ lab_system.send_results()
 ```
 Updates result status and logs the action.
 
-
+##
 ## Key Design Decisions
 
 ### ✅ Object-Oriented Design
@@ -172,7 +172,7 @@ Each class includes intuitive methods specific to the role:
 - `AdminStaff.register_patient_visit()`
 - `Patient.make_payment()`
 
-
+##
 ---
 ## **Task 2: Creational patterns Source Code** '([Creational patterns folder](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/creational_patterns))'
 
@@ -258,6 +258,7 @@ Both `registry1` and `registry2` point to the same instance, maintaining a consi
 
 Using these design patterns, the system architecture remains robust, flexible, and easy to maintain. Each pattern plays a role in reducing tight coupling and improving code clarity and reusability.
 
+##
 ---
 
 Task 3
