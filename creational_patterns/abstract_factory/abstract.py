@@ -1,25 +1,8 @@
-from abc import ABC, abstractmethod
-from models.staff import Doctor, Nurse
+from simple_factory.system_user import Doctor, Nurse
 
-class TreatmentUnitFactory(ABC):
-    @abstractmethod
-    def assign_doctor(self):
-        pass
+class MedicalTeamFactory:
+    def create_doctor(self, **kwargs):
+        return Doctor(**kwargs)
 
-    @abstractmethod
-    def assign_nurse(self):
-        pass
-
-class InPatientTreatmentUnitFactory(TreatmentUnitFactory):
-    def assign_doctor(self):
-        return Doctor()
-
-    def assign_nurse(self):
-        return Nurse()
-
-class OutPatientTreatmentUnitFactory(TreatmentUnitFactory):
-    def assign_doctor(self):
-        return Doctor()
-
-    def assign_nurse(self):
-        return Nurse()
+    def create_nurse(self, **kwargs):
+        return Nurse(**kwargs)
