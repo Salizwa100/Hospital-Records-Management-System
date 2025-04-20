@@ -1,5 +1,5 @@
 import unittest
-from factory.user_factory import UserFactory
+from factory_method.user_factory import UserFactory
 
 class TestUserFactory(unittest.TestCase):
     def test_create_doctor(self):
