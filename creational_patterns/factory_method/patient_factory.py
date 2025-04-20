@@ -1,4 +1,4 @@
-from models.patient import Patient
+from simple_factory.patient import Patient
 
 class PatientCreator:
     def create_patient(self, **kwargs):
