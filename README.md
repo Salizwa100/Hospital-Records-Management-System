@@ -8,9 +8,10 @@ The purpose of the Hospital Records Management System (HRMS) is to digitize and 
 
 **C4 Architectural Diagrams**  '([ARCHITECTURE.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/ARCHITECTURE.md))'
 
+---
 
 **Assignment 4**    '([Stakeholders and System Requirements Documentation.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Assignment4.md)'     
-
+---
 # **Assignment 5**
 **Use case Diagrams**  '([Use_Case_Diagram.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Use_Case_Diagram.md))'       
 
@@ -18,6 +19,8 @@ The purpose of the Hospital Records Management System (HRMS) is to digitize and 
 **Use Case Specifications:**  '([Use_Case_Specifications.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Use_Case_Specifications.md))'   
 
 **Test Cases**  '([Test_Cases.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Test_Cases.md))' 
+
+---
 
 # **Assignment 6**
 
@@ -29,7 +32,7 @@ The purpose of the Hospital Records Management System (HRMS) is to digitize and 
 
 **Reflection**  '([Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Reflection.md))'       
 
-
+---
 
 # **Assignment 7**
 
@@ -72,7 +75,7 @@ To ensure the system meets functional, performance, design, and implementation r
 
 **Project link** '([Custom Kanban Board Creation](https://github.com/users/Salizwa100/projects/9))'        
 
-
+---
 
 # **Assignment 8**
 
@@ -83,6 +86,7 @@ To ensure the system meets functional, performance, design, and implementation r
 
 **Reflection**  '([assignment 8_reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/assignment%208_reflection.md))'
 
+---
 
 # **Assignment 9**
 
@@ -92,12 +96,12 @@ To ensure the system meets functional, performance, design, and implementation r
 
 **Reflection**  '([Assignment 9 Reflection.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Assignment%209%20Reflection.md))'
 
-
+---
 # **Assignment 10**
 
-**Task 1: Class implementations Source Code** '([Class implementations src folder](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/src))'
+# **Task 1: Class implementations Source Code** '([Class implementations src folder](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/src))'
 
-# 🏥 Hospital Records Management System – Design choice
+# Design choice:
 
 ## 📌 Why Python?
 
@@ -124,7 +128,6 @@ doctor.prescribe_treatment("patient123", "Paracetamol 500mg")
 ```
 This lets a doctor issue a prescription for a patient.
 
----
 
 ### 2. `entities.py` – Core Data Models
 Encapsulates entities such as:
@@ -139,7 +142,6 @@ bill.pay_bill()
 ```
 Changes bill status and confirms payment.
 
----
 
 ### 3. `lab_system.py` – Lab Integration
 Represents interactions between doctors, patients, and lab results.
@@ -152,7 +154,6 @@ lab_system.send_results()
 ```
 Updates result status and logs the action.
 
----
 
 ## Key Design Decisions
 
