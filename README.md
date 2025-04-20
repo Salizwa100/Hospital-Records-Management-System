@@ -174,7 +174,96 @@ Each class includes intuitive methods specific to the role:
 
 
 ---
-**Task 2: Creational patterns Source Code** '([Creational patterns folder](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/creational_patterns))'
+## **Task 2: Creational patterns Source Code** '([Creational patterns folder](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/creational_patterns))'
+
+##
+# Design Pattern Justification
+
+This project demonstrates a Hospital Management System using several design patterns to improve modularity, scalability, and maintainability.
+
+
+## 1. Factory Pattern
+
+**Used in:** `factory/user_factory.py`, `factory/patient_factory.py`
+
+**Justification:** The Factory Pattern is used to encapsulate the object creation process for various system users and patients. It allows the client code to create objects without knowing the exact class name.
+
+**Example:**
+```python
+UserFactory.create_user("Doctor", name="Dr. Smith", department="Cardiology")
+```
+Here, based on the type "Doctor", the factory creates and returns a `Doctor` object.
+
+##
+
+## 2. Abstract Factory Pattern
+
+**Used in:** `abstract_factory/medical_team_factory.py`
+
+**Justification:** The Abstract Factory Pattern is used to produce families of related or dependent objects without specifying their concrete classes.
+
+**Example:**
+```python
+factory = MedicalTeamFactory()
+doctor = factory.create_doctor()
+nurse = factory.create_nurse()
+```
+This allows grouping the creation of objects like Doctor and Nurse together for consistent team setups.
+
+##
+
+## 3. Builder Pattern
+
+**Used in:** `builder/patient_builder.py`
+
+**Justification:** The Builder Pattern simplifies the construction of complex objects like a `Patient` with many optional parameters.
+
+**Example:**
+```python
+patient = PatientBuilder().set_name("John").set_age(30).set_diagnosis("Flu").build()
+```
+This approach provides a clear and readable way to instantiate objects with various configurations.    
+
+ ##  
+
+## 4. Prototype Pattern
+
+**Used in:** `prototype/bill_prototype.py`
+
+**Justification:** The Prototype Pattern is used to clone existing objects efficiently. This is helpful in billing systems where a similar bill structure is reused.
+
+**Example:**
+```python
+bill_copy = original_bill.clone()
+```
+A new bill is created as a copy of an existing one, preserving common attributes.    
+
+##
+## 5. Singleton Pattern
+
+**Used in:** `singleton/hospital_registry.py`
+
+**Justification:** The Singleton Pattern ensures a class has only one instance and provides a global point of access.
+
+**Example:**
+```python
+registry1 = HospitalRegistry.get_instance()
+registry2 = HospitalRegistry.get_instance()
+```
+Both `registry1` and `registry2` point to the same instance, maintaining a consistent registry across the application.
+
+##
+
+## Conclusion
+
+Using these design patterns, the system architecture remains robust, flexible, and easy to maintain. Each pattern plays a role in reducing tight coupling and improving code clarity and reusability.
+
+---
+
+Task 3
+
+
+
 
 
 
