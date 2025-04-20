@@ -261,7 +261,10 @@ Using these design patterns, the system architecture remains robust, flexible, a
 ##
 ---
 
-Task 3
+## **Task 3: Unit Testing** '([Unit tests](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/tests))'
+
+**Coverage report link ** '([Test coverage report](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/tests))'
+
 
 
 
