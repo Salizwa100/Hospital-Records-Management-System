@@ -1,14 +1,24 @@
+
 from abc import ABC, abstractmethod
 
-class UserFactoryMethod(ABC):
+class PaymentProcessor(ABC):
     @abstractmethod
-    def create_user(self):
+    def process_payment(self, amount):
         pass
 
-class DoctorFactoryMethod(UserFactoryMethod):
-    def create_user(self):
-        return Doctor("U100", "Dr. Bob", "Neurology", "bob@hospital.com")
+class CreditCardProcessor(PaymentProcessor):
+    def process_payment(self, amount):
+        print(f"Credit Card processed: ${amount}")
 
-class AdminFactoryMethod(UserFactoryMethod):
-    def create_user(self):
-        return AdminStaff("U100", "Alice Admin", "Records", "alice.admin@hospital.com")
+class PayPalProcessor(PaymentProcessor):
+    def process_payment(self, amount):
+        print(f"PayPal processed: ${amount}")
+
+class PaymentFactory(ABC):
+    @abstractmethod
+    def create_processor(self):
+        pass
+
+class CreditCardFactory(PaymentFactory):
+    def create_processor(self):
+        return CreditCardProcessor()
