@@ -23,13 +23,13 @@
 
 ## New Issues
 
-- **#14: Improve error handling in LabSystem**  
+- **#18: Improve error handling in LabSystem**  
   Current implementation lacks error checks for edge cases, e.g., verifying if a patient exists before sending results.
   
-- **#15: Validate patient-doctor relationship before prescribing or booking appointments**  
+- **#19: Validate patient-doctor relationship before prescribing or booking appointments**  
   In `Doctor.prescribe_treatment` and `Patient.book_appointments`, there’s no check for valid relationships.
 
-- **#16: Fix broken test in MedicalTeamFactory**  
+- **#20: Fix broken test in MedicalTeamFactory**  
   `TypeError`: `MedicalTeamFactory.create_doctor()` takes 1 positional argument but 5 were given  
   Update
   
@@ -37,7 +37,7 @@
 ## Unit testing
   
 
-- **#17: Add unit tests for billing operations**  
+- **#21: Add unit tests for billing operations**  
   Methods in the `Bill` class (e.g., `submit_claim`, `pay_bill`) should be covered by tests to ensure reliability.
 
 
