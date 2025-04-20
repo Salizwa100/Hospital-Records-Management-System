@@ -1,26 +1,18 @@
-from abc import ABC, abstractmethod
-
-class Patient(ABC):
-    def __init__(self, name):
+class Patient:
+    def __init__(self, patientId, name, dateOfBirth, gender, contactInfo, Address, nextOfKeen):
+        self.patientId = patientId
         self.name = name
-        self.medical_record = []
+        self.dateOfBirth = dateOfBirth
+        self.gender = gender
+        self.contactInfo = contactInfo
+        self.Address = Address
+        self.nextOfKeen = nextOfKeen
 
-    def add_to_record(self, entry):
-        self.medical_record.append(entry)
+    def bookAppointments(self):
+        return f"{self.name} booked an appointment."
 
-    def show_record(self):
-        print(f"--- Record for {self.name} ---")
-        for entry in self.medical_record:
-            print(entry)
+    def viewMedicalHistory(self):
+        return f"Viewing medical history for {self.name}."
 
-    @abstractmethod
-    def patient_type(self):
-        pass
-
-class InPatient(Patient):
-    def patient_type(self):
-        return "In-Patient"
-
-class OutPatient(Patient):
-    def patient_type(self):
-        return "Out-Patient"
+    def makePayment(self):
+        return f"{self.name} made a payment."
