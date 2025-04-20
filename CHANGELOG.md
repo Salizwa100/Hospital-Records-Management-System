@@ -13,20 +13,20 @@
 
 - **Test PatientBuilder, BillPrototype, HospitalRegistry, PatientFactory, UserFactory**  
   Passed all relevant test cases.
+##
 
----
 ## Moved to Inprogress
 
-- **Implement User roles**
+- **Implement User roles**    
   This is currently in developmet, since the System user component has been implemented.
-
+##
 
 ## New Issues
 
 - **#14: Improve error handling in LabSystem**  
   Current implementation lacks error checks for edge cases, e.g., verifying if a patient exists before sending results.
   
-  - **#15: Validate patient-doctor relationship before prescribing or booking appointments**  
+- **#15: Validate patient-doctor relationship before prescribing or booking appointments**  
   In `Doctor.prescribe_treatment` and `Patient.book_appointments`, there’s no check for valid relationships.
 
 - **#16: Fix broken test in MedicalTeamFactory**  
