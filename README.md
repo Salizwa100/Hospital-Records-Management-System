@@ -267,6 +267,11 @@ Using these design patterns, the system architecture remains robust, flexible, a
 
 ### **Coverage report** '([Test coverage report](https://github.com/Salizwa100/Hospital-Records-Management-System/actions/workflows/coverage_report.yml))'
 
+##
+
+### **Project Updates** '([Change log.md](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/CHANGELOG.md))'
+---
+
 
 
 
