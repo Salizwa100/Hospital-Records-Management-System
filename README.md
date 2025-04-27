@@ -376,7 +376,7 @@ The key reasons for choosing the Factory Pattern are:
 ## **Task 4: Future-Proofing** 
 '([Stub implementation and Class diagram](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Future-Proofing%20Docs.md))'
 
-##
+
 ---
 
 
