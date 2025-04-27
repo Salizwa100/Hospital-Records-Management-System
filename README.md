@@ -273,12 +273,111 @@ Using these design patterns, the system architecture remains robust, flexible, a
 ---
 
 
+# **Assignment 11**
+
+## **Task 1: Repository Interface Design** '([Repositories directory](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/repositories))'
+
+# Repository Interface Design - Justification
+
+##
+
+## Why We Used a Generic Repository Interface
+
+- To avoid writing duplicate CRUD methods (`save`, `findById`, `findAll`, `delete`) for every entity.
+- By using a generic interface `Repository<T, ID>`, we can define these methods once and reuse them across all models like Patient, Appointment, Invoice, etc.
+
+##
+
+## Benefits of the Design
+
+✅ **Reusability**:  
+  - One interface, multiple implementations.
+  - Reduces code duplication for each new entity.
+
+✅ **Flexibility**:  
+  - Easy to swap storage backends (In-Memory, Database, Filesystem) without changing the business logic.
+
+✅ **Consistency**:  
+  - All repositories follow the same method signatures, making the system predictable and easier to maintain.
+
+✅ **Future-Proofing**:  
+  - Adding a new entity (e.g., "Pharmacy") only needs a small new repository that extends the generic interface — no need to redesign the whole system.
+
+##
+
+## Quick Example
+
+- `PatientRepository` extends `Repository<Patient, str>`
+- `AppointmentRepository` extends `Repository<Appointment, str>`
+
+Both automatically get standard CRUD methods.
+
+##
+
+# Final Summary
+
+- **Generic Repository Pattern** = Cleaner Code + Easier Testing + Ready for future extensions
+
+---
+
+## **Task 2: In-Memory Implementation** 
+'([In-Memory directory](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/repositories/inmemory))'
+
+##
+
+'([Unit testing directory](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/repositories/inmemory))'
 
 
+---
 
+## **Task 3: Storage-Abstraction Mechanism** 
+'([Factory directory](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/factories/repository_factory.py))'
 
+##
+# Design Decision: Factory Pattern vs Dependency Injection (DI)
 
+##
 
+## Why Factory Pattern was Chosen
+
+In this Hospital Management Repository Layer project, we used the **Factory Pattern** instead of full **Dependency Injection (DI)** to instantiate repositories dynamically.
+
+The key reasons for choosing the Factory Pattern are:
+
+### 1. Simplicity and Focus
+
+- Factory keeps the system simple for now.
+- It hides the complexity of storage backend creation from the services.
+- Developers do not have to manage dependency injection frameworks manually.
+- Clean and lightweight, ideal for this scale of project.
+
+### 2. Flexibility for Future Backends
+
+- `RepositoryFactory` can easily be extended to return:
+  - In-Memory repositories (for testing)
+  - Database-backed repositories (for production)
+  - Filesystem repositories (for backups)
+
+- Switching storage type only requires a small change inside the Factory, **no changes** needed in the service or business logic layers.
+
+### 3. Avoid Early Overhead
+
+- Dependency Injection frameworks (like `injector`, `FastAPI Depends`, `Spring`, etc.) are powerful but heavy.
+- DI makes sense for very large-scale systems but would **overcomplicate** this project unnecessarily.
+
+### 4. Centralized Control
+
+- Using a single `RepositoryFactory` provides **central control** over storage selection.
+- It acts as the "brain" deciding whether we work with in-memory data, database data, or even external APIs later.
+- This minimizes maintenance overhead.
+
+---
+
+## **Task 4: Future-Proofing** 
+'([Stub implementation and Class diagram](https://github.com/Salizwa100/Hospital-Records-Management-System/blob/main/Future-Proofing%20Docs.md))'
+
+##
+---
 
 
 
