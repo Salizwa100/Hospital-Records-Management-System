@@ -325,7 +325,7 @@ Both automatically get standard CRUD methods.
 
 ##
 
-'([Unit testing directory](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/repositories/inmemory))'
+'([Unit testing directory](https://github.com/Salizwa100/Hospital-Records-Management-System/tree/main/tests/inmemory))'
 
 
 ---
