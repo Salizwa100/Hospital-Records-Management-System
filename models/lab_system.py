@@ -1,4 +1,5 @@
-models/lab_system.py
+from models.lab_system import LabSystem
+
 from dataclasses import dataclass
 from datetime import datetime
 
