@@ -1,5 +1,5 @@
 import unittest
-from builder.patient_builder import PatientBuilder
+from src.builder.patient_builder import PatientBuilder
 
 class TestPatientBuilder(unittest.TestCase):
     def test_patient_profile_complete(self):
